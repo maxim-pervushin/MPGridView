@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000ABA527650497E73C615AB3F6D95AC /* MPGridView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED41E894A72F43BFE867B61919CC29 /* MPGridView-dummy.m */; };
+		02BCFA4F50E4E2CE1EA8AD9D8BD52F3C /* Pods-MPGridView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAC642FCE06BCB9E812B3D7B92F4CF2 /* Pods-MPGridView_Example-dummy.m */; };
+		2BCFD4FB510F5E7FA926E853D7E8601C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		35FB199811C9FD7F2FEA1CD9A0D3E5DB /* MPGridView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 048E64F25290171A3ADA97790D3327DF /* MPGridView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A5D8A0D6466527A854A9FE7CDFC877F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		51DACD9910BD6026E621B1A895F13D1F /* CGRect+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60EDF555A29C76CFA15B12D7B82CF8 /* CGRect+Helpers.swift */; };
+		64E14651A07157D7EF7E827FA861E9DF /* Pods-MPGridView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 949FAFFD8A1E1C4203DA78B8C1A28BE6 /* Pods-MPGridView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		975EE5D3FE04069CDB8B7474CC953AC0 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED7BE7645A934789322019A5E2317F /* GridView.swift */; };
+		9E926C9B10D9FC5D2F22A477CBBB8E52 /* Pods-MPGridView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C10A68C3387C8AA5E0143069E64AF76 /* Pods-MPGridView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC03F8BAB209B0D753A38D89BA5E77BB /* Pods-MPGridView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC502D6BB9E447DA5F7B44DC8CECF10 /* Pods-MPGridView_Tests-dummy.m */; };
+		D9A9237BCE751D36B02C3DDD041F060E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E2F6A2F54100AF4F556459C207A166B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 710D21EE666EE44D2863B6B3B919DB43;
+			remoteInfo = "Pods-MPGridView_Example";
+		};
+		F81F4F1CAF7D273817EAF807DB4A5572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7E00B9A9845C81FC8E4AB384F80D00;
+			remoteInfo = MPGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BC7AA7588DF73D0BB27BE64DDEAFD4 /* MPGridView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPGridView-prefix.pch"; sourceTree = "<group>"; };
+		048E64F25290171A3ADA97790D3327DF /* MPGridView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPGridView-umbrella.h"; sourceTree = "<group>"; };
+		053946A442C02AEE7EE63BEC61B68CF8 /* Pods-MPGridView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPGridView_Tests-resources.sh"; sourceTree = "<group>"; };
+		192DED59CE17A7D48F21E05A698DD08F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2A1F7702C8DBFE025C717CDE9B322D30 /* MPGridView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MPGridView.podspec; sourceTree = "<group>"; };
+		2AEC4A40AFFB95D83FE6D4A2D0AEEB46 /* Pods-MPGridView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MPGridView_Example.modulemap"; sourceTree = "<group>"; };
+		44EB92A06512D894FED246C2AF8D50FF /* Pods_MPGridView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPGridView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ED41E894A72F43BFE867B61919CC29 /* MPGridView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPGridView-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C10A68C3387C8AA5E0143069E64AF76 /* Pods-MPGridView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPGridView_Example-umbrella.h"; sourceTree = "<group>"; };
+		5F3EAC9338F740076FF68EDF0EF2B30E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667D17D31A806438E2CF0C938E38380A /* MPGridView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPGridView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69AC5D41AF5BC9BA1EA5BFF6D6D0CEED /* Pods-MPGridView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPGridView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AFA0BF928DFCD0484563E9328F96184 /* Pods-MPGridView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPGridView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6DBF024F011C2612DA097A6A1991371D /* Pods-MPGridView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPGridView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		88CA74C0B24E4166F64CDB1CD6F1886A /* Pods-MPGridView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPGridView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AEE90A8D184E18217642415769AE78A /* Pods-MPGridView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPGridView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8F98D9ED3DB29AE65802216930D6FBB9 /* Pods-MPGridView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPGridView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		949FAFFD8A1E1C4203DA78B8C1A28BE6 /* Pods-MPGridView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPGridView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9FC502D6BB9E447DA5F7B44DC8CECF10 /* Pods-MPGridView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPGridView_Tests-dummy.m"; sourceTree = "<group>"; };
+		9FEEC422BC9D3D1776B4E77DAA1D6668 /* Pods_MPGridView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPGridView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB60EDF555A29C76CFA15B12D7B82CF8 /* CGRect+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Helpers.swift"; path = "MPGridView/Classes/CGRect+Helpers.swift"; sourceTree = "<group>"; };
+		B2F685A41C0F8FA3E30E954F3FC7AD66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55C9B30D679B9897932D6A8157C5BFB /* Pods-MPGridView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPGridView_Example-resources.sh"; sourceTree = "<group>"; };
+		C77379B710F237BCC9C44A428EA807BD /* Pods-MPGridView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MPGridView_Tests.modulemap"; sourceTree = "<group>"; };
+		DB805628AD4CB02BBBD790A140EA09DE /* Pods-MPGridView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPGridView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFFE1A7A23510AC9AF3DE573D0AF781C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D8AF29FE5BC5DDF4368161A0F170AA /* MPGridView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MPGridView.modulemap; sourceTree = "<group>"; };
+		EFAC642FCE06BCB9E812B3D7B92F4CF2 /* Pods-MPGridView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPGridView_Example-dummy.m"; sourceTree = "<group>"; };
+		F46A6E050386EBE088D3612C0A4CF1A8 /* Pods-MPGridView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPGridView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F4B5B7817FE9516563DE0D73EF0EFD06 /* MPGridView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPGridView.xcconfig; sourceTree = "<group>"; };
+		F8ED7BE7645A934789322019A5E2317F /* GridView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridView.swift; path = MPGridView/Classes/GridView.swift; sourceTree = "<group>"; };
+		FB6A77A91314673E678841EABE1DF195 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE81E2F511F2CE4B08293D0C6CF3891F /* Pods-MPGridView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPGridView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FFC8653F401C8E0F6E280995440A787D /* Pods-MPGridView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPGridView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C317BD955BCD7EC4DCB7F7D0E0A4FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A9237BCE751D36B02C3DDD041F060E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FCB055F6454F048478B00E8DB9360B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5D8A0D6466527A854A9FE7CDFC877F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD5AC45B1780DF9A98B4DFECD00C9AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCFD4FB510F5E7FA926E853D7E8601C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25C80BBC8EBC5F782A94B973F4D145CE /* Pods-MPGridView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F685A41C0F8FA3E30E954F3FC7AD66 /* Info.plist */,
+				C77379B710F237BCC9C44A428EA807BD /* Pods-MPGridView_Tests.modulemap */,
+				DB805628AD4CB02BBBD790A140EA09DE /* Pods-MPGridView_Tests-acknowledgements.markdown */,
+				FFC8653F401C8E0F6E280995440A787D /* Pods-MPGridView_Tests-acknowledgements.plist */,
+				9FC502D6BB9E447DA5F7B44DC8CECF10 /* Pods-MPGridView_Tests-dummy.m */,
+				8AEE90A8D184E18217642415769AE78A /* Pods-MPGridView_Tests-frameworks.sh */,
+				053946A442C02AEE7EE63BEC61B68CF8 /* Pods-MPGridView_Tests-resources.sh */,
+				949FAFFD8A1E1C4203DA78B8C1A28BE6 /* Pods-MPGridView_Tests-umbrella.h */,
+				88CA74C0B24E4166F64CDB1CD6F1886A /* Pods-MPGridView_Tests.debug.xcconfig */,
+				6DBF024F011C2612DA097A6A1991371D /* Pods-MPGridView_Tests.release.xcconfig */,
+			);
+			name = "Pods-MPGridView_Tests";
+			path = "Target Support Files/Pods-MPGridView_Tests";
+			sourceTree = "<group>";
+		};
+		3B27F6D06A665713BDD6BDA5813D19E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFFE1A7A23510AC9AF3DE573D0AF781C /* Info.plist */,
+				E7D8AF29FE5BC5DDF4368161A0F170AA /* MPGridView.modulemap */,
+				F4B5B7817FE9516563DE0D73EF0EFD06 /* MPGridView.xcconfig */,
+				47ED41E894A72F43BFE867B61919CC29 /* MPGridView-dummy.m */,
+				00BC7AA7588DF73D0BB27BE64DDEAFD4 /* MPGridView-prefix.pch */,
+				048E64F25290171A3ADA97790D3327DF /* MPGridView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MPGridView";
+			sourceTree = "<group>";
+		};
+		465ACE961A0B0F76E427B77158B53E79 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D60643C535C4B8361CB36479A9997CB5 /* MPGridView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64D116758ABB3EDEE037B857E68B9DD7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A77A91314673E678841EABE1DF195 /* LICENSE */,
+				2A1F7702C8DBFE025C717CDE9B322D30 /* MPGridView.podspec */,
+				192DED59CE17A7D48F21E05A698DD08F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				465ACE961A0B0F76E427B77158B53E79 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BB5D85FE39BFCAA65FEA1F52AA5F6DB3 /* Products */,
+				CAF0F2862CF84FCA54CB73817F7EC546 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BB5D85FE39BFCAA65FEA1F52AA5F6DB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667D17D31A806438E2CF0C938E38380A /* MPGridView.framework */,
+				44EB92A06512D894FED246C2AF8D50FF /* Pods_MPGridView_Example.framework */,
+				9FEEC422BC9D3D1776B4E77DAA1D6668 /* Pods_MPGridView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2180EEAAB84D7EB9C09942227DEA2DD /* Pods-MPGridView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5F3EAC9338F740076FF68EDF0EF2B30E /* Info.plist */,
+				2AEC4A40AFFB95D83FE6D4A2D0AEEB46 /* Pods-MPGridView_Example.modulemap */,
+				69AC5D41AF5BC9BA1EA5BFF6D6D0CEED /* Pods-MPGridView_Example-acknowledgements.markdown */,
+				8F98D9ED3DB29AE65802216930D6FBB9 /* Pods-MPGridView_Example-acknowledgements.plist */,
+				EFAC642FCE06BCB9E812B3D7B92F4CF2 /* Pods-MPGridView_Example-dummy.m */,
+				F46A6E050386EBE088D3612C0A4CF1A8 /* Pods-MPGridView_Example-frameworks.sh */,
+				C55C9B30D679B9897932D6A8157C5BFB /* Pods-MPGridView_Example-resources.sh */,
+				5C10A68C3387C8AA5E0143069E64AF76 /* Pods-MPGridView_Example-umbrella.h */,
+				6AFA0BF928DFCD0484563E9328F96184 /* Pods-MPGridView_Example.debug.xcconfig */,
+				FE81E2F511F2CE4B08293D0C6CF3891F /* Pods-MPGridView_Example.release.xcconfig */,
+			);
+			name = "Pods-MPGridView_Example";
+			path = "Target Support Files/Pods-MPGridView_Example";
+			sourceTree = "<group>";
+		};
+		CAF0F2862CF84FCA54CB73817F7EC546 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2180EEAAB84D7EB9C09942227DEA2DD /* Pods-MPGridView_Example */,
+				25C80BBC8EBC5F782A94B973F4D145CE /* Pods-MPGridView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D60643C535C4B8361CB36479A9997CB5 /* MPGridView */ = {
+			isa = PBXGroup;
+			children = (
+				AB60EDF555A29C76CFA15B12D7B82CF8 /* CGRect+Helpers.swift */,
+				F8ED7BE7645A934789322019A5E2317F /* GridView.swift */,
+				64D116758ABB3EDEE037B857E68B9DD7 /* Pod */,
+				3B27F6D06A665713BDD6BDA5813D19E3 /* Support Files */,
+			);
+			name = MPGridView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F7F6942CCC1EFA3A12180F4970E2AF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E926C9B10D9FC5D2F22A477CBBB8E52 /* Pods-MPGridView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C06D8754C32F47B9DEB6342BD9383F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FB199811C9FD7F2FEA1CD9A0D3E5DB /* MPGridView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D622F1D383C25D72E93D9D8BE099A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E14651A07157D7EF7E827FA861E9DF /* Pods-MPGridView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		554B5F0ED9963805ECAFF970A05B0A99 /* Pods-MPGridView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2239ADF2611639D1D6D53E415BDDFF /* Build configuration list for PBXNativeTarget "Pods-MPGridView_Tests" */;
+			buildPhases = (
+				74722E8A7EB953EF2A5DADE857DACDC3 /* Sources */,
+				50FCB055F6454F048478B00E8DB9360B /* Frameworks */,
+				C7D622F1D383C25D72E93D9D8BE099A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16D78FF55B60D84CD84AA4A49E5594FF /* PBXTargetDependency */,
+			);
+			name = "Pods-MPGridView_Tests";
+			productName = "Pods-MPGridView_Tests";
+			productReference = 9FEEC422BC9D3D1776B4E77DAA1D6668 /* Pods_MPGridView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		710D21EE666EE44D2863B6B3B919DB43 /* Pods-MPGridView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48DAFFB783A4563101FA687FE889AE04 /* Build configuration list for PBXNativeTarget "Pods-MPGridView_Example" */;
+			buildPhases = (
+				64D0A592087F689CFF97C44F7AC9E05C /* Sources */,
+				3C317BD955BCD7EC4DCB7F7D0E0A4FDF /* Frameworks */,
+				2F7F6942CCC1EFA3A12180F4970E2AF9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				021D2134BF54824DD184272BFFD77562 /* PBXTargetDependency */,
+			);
+			name = "Pods-MPGridView_Example";
+			productName = "Pods-MPGridView_Example";
+			productReference = 44EB92A06512D894FED246C2AF8D50FF /* Pods_MPGridView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE7E00B9A9845C81FC8E4AB384F80D00 /* MPGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5ADD42D6A4FE9FBC4861AC658AACB82 /* Build configuration list for PBXNativeTarget "MPGridView" */;
+			buildPhases = (
+				E37FBC111A670B8F51CF4BE6E7382A3E /* Sources */,
+				ECD5AC45B1780DF9A98B4DFECD00C9AB /* Frameworks */,
+				9C06D8754C32F47B9DEB6342BD9383F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPGridView;
+			productName = MPGridView;
+			productReference = 667D17D31A806438E2CF0C938E38380A /* MPGridView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BB5D85FE39BFCAA65FEA1F52AA5F6DB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7E00B9A9845C81FC8E4AB384F80D00 /* MPGridView */,
+				710D21EE666EE44D2863B6B3B919DB43 /* Pods-MPGridView_Example */,
+				554B5F0ED9963805ECAFF970A05B0A99 /* Pods-MPGridView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D0A592087F689CFF97C44F7AC9E05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BCFA4F50E4E2CE1EA8AD9D8BD52F3C /* Pods-MPGridView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74722E8A7EB953EF2A5DADE857DACDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC03F8BAB209B0D753A38D89BA5E77BB /* Pods-MPGridView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37FBC111A670B8F51CF4BE6E7382A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DACD9910BD6026E621B1A895F13D1F /* CGRect+Helpers.swift in Sources */,
+				975EE5D3FE04069CDB8B7474CC953AC0 /* GridView.swift in Sources */,
+				000ABA527650497E73C615AB3F6D95AC /* MPGridView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		021D2134BF54824DD184272BFFD77562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPGridView;
+			target = EE7E00B9A9845C81FC8E4AB384F80D00 /* MPGridView */;
+			targetProxy = F81F4F1CAF7D273817EAF807DB4A5572 /* PBXContainerItemProxy */;
+		};
+		16D78FF55B60D84CD84AA4A49E5594FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MPGridView_Example";
+			target = 710D21EE666EE44D2863B6B3B919DB43 /* Pods-MPGridView_Example */;
+			targetProxy = 4E2F6A2F54100AF4F556459C207A166B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0145331342395E87C2FC8489270433F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B5B7817FE9516563DE0D73EF0EFD06 /* MPGridView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MPGridView/MPGridView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPGridView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPGridView/MPGridView.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximpervushin.MPGridView;
+				PRODUCT_MODULE_NAME = MPGridView;
+				PRODUCT_NAME = MPGridView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81DB4040FBE2418DA5E8036D917D8AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CA74C0B24E4166F64CDB1CD6F1886A /* Pods-MPGridView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MPGridView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPGridView_Tests/Pods-MPGridView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpervushin.Pods-MPGridView-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B975F61FDBE7890F22D8C558B2A145C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AFA0BF928DFCD0484563E9328F96184 /* Pods-MPGridView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MPGridView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPGridView_Example/Pods-MPGridView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpervushin.Pods-MPGridView-Example";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A341839E82A3C48C9A32BC052D886C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B5B7817FE9516563DE0D73EF0EFD06 /* MPGridView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MPGridView/MPGridView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPGridView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPGridView/MPGridView.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximpervushin.MPGridView;
+				PRODUCT_MODULE_NAME = MPGridView;
+				PRODUCT_NAME = MPGridView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D42A26606F69C3D75FFBD50B1639567D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE81E2F511F2CE4B08293D0C6CF3891F /* Pods-MPGridView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MPGridView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPGridView_Example/Pods-MPGridView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpervushin.Pods-MPGridView-Example";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9098BE0DEA2D395621913E1060A6A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBF024F011C2612DA097A6A1991371D /* Pods-MPGridView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MPGridView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPGridView_Tests/Pods-MPGridView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpervushin.Pods-MPGridView-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48DAFFB783A4563101FA687FE889AE04 /* Build configuration list for PBXNativeTarget "Pods-MPGridView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B975F61FDBE7890F22D8C558B2A145C /* Debug */,
+				D42A26606F69C3D75FFBD50B1639567D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2239ADF2611639D1D6D53E415BDDFF /* Build configuration list for PBXNativeTarget "Pods-MPGridView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DB4040FBE2418DA5E8036D917D8AB1 /* Debug */,
+				F9098BE0DEA2D395621913E1060A6A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5ADD42D6A4FE9FBC4861AC658AACB82 /* Build configuration list for PBXNativeTarget "MPGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0145331342395E87C2FC8489270433F0 /* Debug */,
+				A341839E82A3C48C9A32BC052D886C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

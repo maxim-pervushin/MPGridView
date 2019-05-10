@@ -1,0 +1,16 @@
+PODS:
+  - MPGridView (0.1.0)
+
+DEPENDENCIES:
+  - MPGridView (from `../`)
+
+EXTERNAL SOURCES:
+  MPGridView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MPGridView: e86507980234934e12cdf0daa2a40e738aa1dd8c
+
+PODFILE CHECKSUM: cc03e11e62c4b2e03c3834557849b3467f308c4b
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MPGridView_Example' do
+  pod 'MPGridView', :path => '../'
+
+  target 'MPGridView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

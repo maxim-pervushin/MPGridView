@@ -1,0 +1,6 @@
+framework module MPGridView {
+  umbrella header "MPGridView-umbrella.h"
+
+  export *
+  module * { export * }
+}
