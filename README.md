@@ -1,6 +1,6 @@
 # MPGridView
 
-[![CI Status](https://img.shields.io/travis/Maxim Pervushin/MPGridView.svg?style=flat)](https://travis-ci.org/Maxim Pervushin/MPGridView)
+[![CI Status](https://img.shields.io/travis/maxim-pervushin/MPGridView.svg?style=flat)](https://travis-ci.org/maxim-pervushin/MPGridView)
 [![Version](https://img.shields.io/cocoapods/v/MPGridView.svg?style=flat)](https://cocoapods.org/pods/MPGridView)
 [![License](https://img.shields.io/cocoapods/l/MPGridView.svg?style=flat)](https://cocoapods.org/pods/MPGridView)
 [![Platform](https://img.shields.io/cocoapods/p/MPGridView.svg?style=flat)](https://cocoapods.org/pods/MPGridView)
